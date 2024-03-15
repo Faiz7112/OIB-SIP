@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    border:10px solid #000000;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top_section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container,img{
+    width: 300px;
+    height: 400px;
+}
+
+.about_section{
+    margin-top: 50px;
+}
+
+.about_section h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.contributions{
+    text-align: justify;
+}
+
+.contributions h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contributions h4{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contributions h5{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contributions h6{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contributions p2{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;  
+}
+
+.contributions p3{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.contributions p4{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.contributions p5{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+footer{
+    margin: 50px 0;
+}
+
+footer p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: end;
+}
